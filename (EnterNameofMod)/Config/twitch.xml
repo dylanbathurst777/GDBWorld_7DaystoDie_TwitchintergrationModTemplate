@@ -1,0 +1,15 @@
+<configs>
+	<append xpath="/twitch">
+    <action name="twitch_CactusMan">
+      <property name="command" value="#spawn_CactusMan" /> 
+      <property name="category" value="Spawns" />
+      <property name="event_name" value="spawn_CactusMan" />
+      <property name="default_cost" value="200" />
+      <property name="description_key" value="TwitchAction_SpawnCopDesc" />
+      <property name="add_cooldown" value="true" />
+      <property name="cooldown_blocked" value="true" />
+      <property name="waiting_blocked" value="true" />
+      <property name="cooldown" value="60" />
+    </action>
+	</append>
+</configs>

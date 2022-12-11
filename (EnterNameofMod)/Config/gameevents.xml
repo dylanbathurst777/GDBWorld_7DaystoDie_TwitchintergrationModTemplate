@@ -1,0 +1,25 @@
+<configs>
+  <append xpath="/gameevents">
+    <action_sequence name="spawn_CactusMan">
+    
+      <action class="SpawnEntity">
+        <property name="entity_names" value="Cactus_Man"/>
+        <property name="spawn_count" value="1" />
+        <property name="safe_spawn" value="true" />
+        <property name="add_to_group" value="CactusMan" />
+      </action>
+
+      <action class="PlaySound">
+        <property name="sound" value="twitch_bad_spawn" />
+        <property name="phase" value="1" />
+      </action>
+
+      <action class="PlaySound">
+        <property name="sound" value="zombiemalealert" param1="alertsound" />
+        <property name="phase" value="1" />
+      </action>
+
+    </action_sequence>
+
+  </append>
+</configs>

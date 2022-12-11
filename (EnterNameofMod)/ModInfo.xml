@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<xml>
+		<ModInfo>
+			<Name value="EnterNameOfModHere"/>
+			<Description value="Custom mods I make for fun"/>
+			<Author value="GDBWorld"/>
+			<Version value="4.28"/>
+			<Website value=""/>
+		</ModInfo>
+	</xml>
