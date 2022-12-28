@@ -1,5 +1,6 @@
 <configs>
   <append xpath="/gameevents">
+    <!-- Custom zombie tempate based on video -->
     <action_sequence name="spawn_CactusMan">
     
       <action class="SpawnEntity">
@@ -7,6 +8,29 @@
         <property name="spawn_count" value="1" />
         <property name="safe_spawn" value="true" />
         <property name="add_to_group" value="CactusMan" />
+      </action>
+
+      <action class="PlaySound">
+        <property name="sound" value="twitch_bad_spawn" />
+        <property name="phase" value="1" />
+      </action>
+
+      <action class="PlaySound">
+        <property name="sound" value="zombiemalealert" param1="alertsound" />
+        <property name="phase" value="1" />
+      </action>
+
+    </action_sequence>
+    
+    <!-- Template to make normal zombie spawn edits -->
+    <action_sequence name="spawn_Demox3">
+
+      <action class="SpawnEntity">
+        <property name="entity_names" value="zombieDemolition"/>
+        <property name="spawn_count" value="3" />
+        <property name="add_to_group" value="Demox3" />
+        <variable name="alertsound" value="hulkalert" />
+        <variable name="gamestage" value="0" />  <!-- This determines when it becomes Avalible in game -->
       </action>
 
       <action class="PlaySound">

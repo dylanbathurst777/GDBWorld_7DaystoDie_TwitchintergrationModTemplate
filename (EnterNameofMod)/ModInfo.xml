@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<xml>
 		<ModInfo>
-			<Name value="EnterNameOfModHere"/>
+			<Name value="(EnterNameOfMod)"/> <!-- Enter the name of the mod FOLDER here -->
 			<Description value="Custom mods I make for fun"/>
 			<Author value="GDBWorld"/>
 			<Version value="4.28"/>

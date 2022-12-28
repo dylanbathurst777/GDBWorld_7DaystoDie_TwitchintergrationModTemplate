@@ -1,6 +1,6 @@
 <configs>
-	<append xpath="/entity_classes">
-    <entity_class name="Cactus_Man" extends = "zombieTemplateMale">
+	<append xpath="/entity_classes"> <!-- Custom zombie tempate based on video -->
+    <entity_class name="Cactus_Man" extends = "zombieTemplateMale"> 
       <property name="AITask-1" value="BreakBlock"/>
       <property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=5"/>
       <property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,0,EntityPlayer"/>
